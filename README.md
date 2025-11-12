@@ -7,30 +7,30 @@
 ### ⚡ Transform Short Ideas into Detailed, Professional AI Prompts ⚡
 
 **Stop struggling with prompt engineering. Let AI help you write better prompts.**
-Access advanced prompt expansion instantly with `Alt+Space` → `aipromptgenerator write a blog post` → Get a structured, detailed prompt! ✨
+Access advanced prompt expansion instantly with `Alt+Space` → `pg write a blog post` → Get a structured, detailed prompt! ✨
 
 <!-- Download Badges -->
 <p align="center">
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-1.0.0-x64.zip">
+  <a href="https://github.com/ruslanlap/PowerToysRun-pg/releases/download/v1.0.0/pg-1.0.0-x64.zip">
     <img src="https://img.shields.io/badge/⬇️_Download-x64-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download x64" height="40">
   </a>
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-1.0.0-ARM64.zip">
+  <a href="https://github.com/ruslanlap/PowerToysRun-pg/releases/download/v1.0.0/pg-1.0.0-ARM64.zip">
     <img src="https://img.shields.io/badge/⬇️_Download-ARM64-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download ARM64" height="40">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases">
-    <img src="https://img.shields.io/github/downloads/ruslanlap/PowerToysRun-AIPromptGenerator/total?style=for-the-badge&logo=github&color=success&label=Downloads" alt="Total Downloads" height="28">
+  <a href="https://github.com/ruslanlap/PowerToysRun-pg/releases">
+    <img src="https://img.shields.io/github/downloads/ruslanlap/PowerToysRun-pg/total?style=for-the-badge&logo=github&color=success&label=Downloads" alt="Total Downloads" height="28">
   </a>
 </p>
 
 <!-- Badges -->
 <p align="center">
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/tag/v1.0.0">
+  <a href="https://github.com/ruslanlap/PowerToysRun-pg/releases/tag/v1.0.0">
     <img src="https://img.shields.io/badge/build-v1.0.0-success?logo=github" alt="Build Status">
   </a>
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/tag/v1.0.0">
+  <a href="https://github.com/ruslanlap/PowerToysRun-pg/releases/tag/v1.0.0">
     <img src="https://img.shields.io/badge/release-v1.0.0-blue?logo=github" alt="Latest Release">
   </a>
   <img src="https://img.shields.io/badge/C%23-.NET%209.0-512BD4?logo=dotnet" alt="C# .NET 9.0">
@@ -38,8 +38,8 @@ Access advanced prompt expansion instantly with `Alt+Space` → `aipromptgenerat
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg?logo=opensourceinitiative&logoColor=white" alt="License">
   </a>
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/stargazers">
-    <img src="https://img.shields.io/github/stars/ruslanlap/PowerToysRun-AIPromptGenerator?style=social" alt="GitHub stars">
+  <a href="https://github.com/ruslanlap/PowerToysRun-pg/stargazers">
+    <img src="https://img.shields.io/github/stars/ruslanlap/PowerToysRun-pg?style=social" alt="GitHub stars">
   </a>
 </p>
 
@@ -158,7 +158,7 @@ Access advanced prompt expansion instantly with `Alt+Space` → `aipromptgenerat
 #### 1️⃣ Download the Plugin
 
 <div align="center">
-<a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/tag/v1.0.0">
+<a href="https://github.com/ruslanlap/PowerToysRun-pg/releases/tag/v1.0.0">
   <img src="https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge&logo=github&logoColor=white" alt="Download Latest Release" height="40">
 </a>
 </div>
@@ -177,14 +177,14 @@ Choose your architecture:
     ```
 3. The path should look like:
     ```
-    C:\Users\YourName\AppData\Local\Microsoft\PowerToys\PowerToys Run\Plugins\AIPromptGenerator\
+    C:\Users\YourName\AppData\Local\Microsoft\PowerToys\PowerToys Run\Plugins\pg\
     ```
 
 #### 3️⃣ Configure & Restart
 
 1. Restart PowerToys
 2. Press `Alt+Space` to open PowerToys Run
-3. Type `aipromptgenerator` - you'll see a configuration prompt
+3. Type `pg` - you'll see a configuration prompt
 4. Open PowerToys Settings → PowerToys Run → AI Prompt Generator
 5. Configure your API key and provider
 
@@ -197,7 +197,7 @@ Choose your architecture:
 ### Basic Usage
 
 ```
-Alt+Space → aipromptgenerator write a blog post
+Alt+Space → pg write a blog post
 ```
 
 **Short Input:**
@@ -518,15 +518,15 @@ This script:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator.git
-cd PowerToysRun-AIPromptGenerator
+git clone https://github.com/ruslanlap/PowerToysRun-pg.git
+cd PowerToysRun-pg
 ```
 
 ### Build the Plugin
 
 #### Using Visual Studio
 
-1. Open `AIPromptGenerator/AIPromptGenerator.sln`
+1. Open `pg/pg.sln`
 2. Set build configuration to `Release`
 3. Select platform: `x64` or `ARM64`
 4. Build → Build Solution (Ctrl+Shift+B)
@@ -534,7 +534,7 @@ cd PowerToysRun-AIPromptGenerator
 #### Using Command Line
 
 ```bash
-cd AIPromptGenerator
+cd pg
 dotnet restore
 dotnet build -c Release -p:Platform=x64
 ```
@@ -542,7 +542,7 @@ dotnet build -c Release -p:Platform=x64
 **Output:**
 
 ```
-AIPromptGenerator/Community.PowerToys.Run.Plugin.AIPromptGenerator/bin/x64/Release/net9.0-windows10.0.22621.0/
+pg/Community.PowerToys.Run.Plugin.pg/bin/x64/Release/net9.0-windows10.0.22621.0/
 ```
 
 ### Build the Templates
@@ -562,7 +562,7 @@ src/bin/Release/Community.PowerToys.Run.Plugin.Templates.{version}.nupkg
 
 ```bash
 # Copy plugin to PowerToys
-xcopy /E /I /Y "AIPromptGenerator\Community.PowerToys.Run.Plugin.AIPromptGenerator\bin\x64\Release\net9.0-windows10.0.22621.0" "%LOCALAPPDATA%\Microsoft\PowerToys\PowerToys Run\Plugins\AIPromptGenerator"
+xcopy /E /I /Y "pg\Community.PowerToys.Run.Plugin.pg\bin\x64\Release\net9.0-windows10.0.22621.0" "%LOCALAPPDATA%\Microsoft\PowerToys\PowerToys Run\Plugins\pg"
 
 # Restart PowerToys
 taskkill /F /IM PowerToys.exe
@@ -572,7 +572,7 @@ start "" "C:\Program Files\PowerToys\PowerToys.exe"
 ### Run Tests
 
 ```bash
-cd AIPromptGenerator
+cd pg
 dotnet test
 ```
 
@@ -693,7 +693,7 @@ copies or substantial portions of the Software.
 
 ### 🚀 Ready to Transform Your Prompts?
 
-<a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/tag/v1.0.0">
+<a href="https://github.com/ruslanlap/PowerToysRun-pg/releases/tag/v1.0.0">
   <img src="https://img.shields.io/badge/Download%20Now-Latest%20Release-blue?style=for-the-badge&logo=github&logoColor=white" alt="Download Now" height="50">
 </a>
 
@@ -701,8 +701,8 @@ copies or substantial portions of the Software.
 
 **If this plugin helps you, consider:**
 
-[![Star on GitHub](https://img.shields.io/github/stars/ruslanlap/PowerToysRun-AIPromptGenerator?style=social)](https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator)
-[![Share on Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fruslanlap%2FPowerToysRun-AIPromptGenerator)](https://twitter.com/intent/tweet?text=Check%20out%20this%20amazing%20PowerToys%20Run%20plugin%20for%20AI%20prompt%20generation!&url=https%3A%2F%2Fgithub.com%2Fruslanlap%2FPowerToysRun-AIPromptGenerator)
+[![Star on GitHub](https://img.shields.io/github/stars/ruslanlap/PowerToysRun-pg?style=social)](https://github.com/ruslanlap/PowerToysRun-pg)
+[![Share on Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fruslanlap%2FPowerToysRun-pg)](https://twitter.com/intent/tweet?text=Check%20out%20this%20amazing%20PowerToys%20Run%20plugin%20for%20AI%20prompt%20generation!&url=https%3A%2F%2Fgithub.com%2Fruslanlap%2FPowerToysRun-pg)
 
 <br>
 
