@@ -2,6 +2,8 @@ name: 🤖 Build & Release AI Prompt Generator PowerToys Plugin
 
 on:
     push:
+        branches:
+            - master
         tags:
             - "v*"
 

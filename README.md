@@ -11,27 +11,27 @@ Access advanced prompt expansion instantly with `Alt+Space` → `aipromptgenerat
 
 <!-- Download Badges -->
 <p align="center">
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/latest/download/AIPromptGenerator-v1.0.0-x64.zip">
+  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-v1.0.0-x64.zip">
     <img src="https://img.shields.io/badge/⬇️_Download-x64-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download x64" height="40">
   </a>
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/latest/download/AIPromptGenerator-v1.0.0-ARM64.zip">
+  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-v1.0.0-ARM64.zip">
     <img src="https://img.shields.io/badge/⬇️_Download-ARM64-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download ARM64" height="40">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/latest">
+  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/tag/v1.0.0">
     <img src="https://img.shields.io/github/downloads/ruslanlap/PowerToysRun-AIPromptGenerator/total?style=for-the-badge&logo=github&color=orange&label=Total%20Downloads" alt="Total Downloads" height="28">
   </a>
 </p>
 
 <!-- Badges -->
 <p align="center">
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/ruslanlap/PowerToysRun-AIPromptGenerator/build-and-release.yml?branch=master&label=build&logo=github" alt="Build Status">
+  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/badge/build-v1.0.0-success?logo=github" alt="Build Status">
   </a>
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/latest">
-    <img src="https://img.shields.io/github/v/release/ruslanlap/PowerToysRun-AIPromptGenerator?label=latest&logo=github" alt="Latest Release">
+  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/tag/v1.0.0">
+    <img src="https://img.shields.io/badge/release-v1.0.0-blue?logo=github" alt="Latest Release">
   </a>
   <img src="https://img.shields.io/badge/C%23-.NET%209.0-512BD4?logo=dotnet" alt="C# .NET 9.0">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4?logo=windows" alt="Platform">
@@ -693,7 +693,7 @@ copies or substantial portions of the Software.
 
 ### 🚀 Ready to Transform Your Prompts?
 
-<a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/latest">
+<a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/tag/v1.0.0">
   <img src="https://img.shields.io/badge/Download%20Now-Latest%20Release-blue?style=for-the-badge&logo=github&logoColor=white" alt="Download Now" height="50">
 </a>
 
