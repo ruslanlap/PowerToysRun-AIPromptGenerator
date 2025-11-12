@@ -158,7 +158,7 @@ Access advanced prompt expansion instantly with `Alt+Space` → `aipromptgenerat
 #### 1️⃣ Download the Plugin
 
 <div align="center">
-<a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/latest">
+<a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/tag/v1.0.0">
   <img src="https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge&logo=github&logoColor=white" alt="Download Latest Release" height="40">
 </a>
 </div>

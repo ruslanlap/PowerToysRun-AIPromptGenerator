@@ -175,13 +175,6 @@ jobs:
                   ## 📚 Documentation
                   Full documentation available in the [README](https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator#readme)
 
-                  ## 🛠️ Bonus: Plugin Templates
-                  This release also includes PowerToys Run plugin templates:
-                  \`\`\`bash
-                  dotnet new install Community.PowerToys.Run.Plugin.Templates
-                  dotnet new ptrun-proj -n MyPlugin
-                  \`\`\`
-
                   ## 💫 Contribute
                   Found a bug or have an idea? [Open an issue](https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/issues)
 
