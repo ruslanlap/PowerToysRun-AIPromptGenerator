@@ -1,0 +1,14 @@
+{
+  "ID": "EED50CE03A114CB18CA940D0550B6988",
+  "ActionKeyword": "aipromptgenerator",
+  "IsGlobal": false,
+  "Name": "AIPromptGenerator",
+  "Author": "ruslanlap",
+  "Version": "1.0.0",
+  "Language": "csharp",
+  "Website": "https://github.com/ruslanlap/PowerToys-AIPromptGenerator",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.AIPromptGenerator.dll",
+  "IcoPathDark": "Images\\aipromptgenerator.dark.png",
+  "IcoPathLight": "Images\\aipromptgenerator.light.png",
+  "DynamicLoading": false
+}
