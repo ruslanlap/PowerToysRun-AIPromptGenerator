@@ -28,7 +28,7 @@ Access advanced prompt expansion instantly with `Alt+Space` → `aipromptgenerat
 <!-- Badges -->
 <p align="center">
   <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/ruslanlap/PowerToysRun-AIPromptGenerator/build-and-release.yml?branch=main&label=build&logo=github" alt="Build Status">
+    <img src="https://img.shields.io/github/actions/workflow/status/ruslanlap/PowerToysRun-AIPromptGenerator/build-and-release.yml?branch=master&label=build&logo=github" alt="Build Status">
   </a>
   <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/latest">
     <img src="https://img.shields.io/github/v/release/ruslanlap/PowerToysRun-AIPromptGenerator?label=latest&logo=github" alt="Latest Release">
