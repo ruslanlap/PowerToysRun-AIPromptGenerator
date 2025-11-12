@@ -314,6 +314,18 @@ Max Tokens: 2500
 Enable Caching: Yes
 ```
 
+**For Coding Tasks (OpenRouter - Free!):**
+
+```
+Provider: OpenRouter
+Model: kwaipilot/kat-coder-pro:free
+Temperature: 0.7
+Max Tokens: 2000
+Enable Caching: Yes
+```
+
+> 💡 **Tip**: KAT Coder Pro handles coding-related prompts exceptionally well and is completely free via OpenRouter!
+
 ---
 
 ## 🤖 Supported AI Providers
@@ -334,8 +346,9 @@ Enable Caching: Yes
 
 ### 3. OpenRouter 🔀
 
-- **Models**: `openai/gpt-4o`, `anthropic/claude-3.5-sonnet`, `google/gemini-pro-1.5`
+- **Models**: `openai/gpt-4o`, `anthropic/claude-3.5-sonnet`, `google/gemini-pro-1.5`, `kwaipilot/kat-coder-pro:free`
 - **Best For**: Access to multiple models with one API key
+- **Recommended**: `kwaipilot/kat-coder-pro:free` - Excellent coding assistance, completely free!
 - **API Key**: [Get from OpenRouter](https://openrouter.ai/keys)
 - **Endpoint**: `https://openrouter.ai/api/v1/chat/completions` (auto-configured)
 
