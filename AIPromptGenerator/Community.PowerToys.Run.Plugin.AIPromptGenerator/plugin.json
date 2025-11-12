@@ -1,6 +1,6 @@
 {
   "ID": "EED50CE03A114CB18CA940D0550B6988",
-  "ActionKeyword": "aipromptgenerator",
+  "ActionKeyword": "pg",
   "IsGlobal": false,
   "Name": "AIPromptGenerator",
   "Author": "ruslanlap",
