@@ -6,7 +6,7 @@
   "Author": "ruslanlap",
   "Version": "1.0.0",
   "Language": "csharp",
-  "Website": "https://github.com/ruslanlap/PowerToys-AIPromptGenerator",
+  "Website": "https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator",
   "ExecuteFileName": "Community.PowerToys.Run.Plugin.AIPromptGenerator.dll",
   "IcoPathDark": "Images\\aipromptgenerator.dark.png",
   "IcoPathLight": "Images\\aipromptgenerator.light.png",
