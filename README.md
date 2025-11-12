@@ -11,10 +11,10 @@ Access advanced prompt expansion instantly with `Alt+Space` → `aipromptgenerat
 
 <!-- Download Badges -->
 <p align="center">
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-v1.0.0-x64.zip">
+  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-1.0.0-x64.zip">
     <img src="https://img.shields.io/badge/⬇️_Download-x64-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download x64" height="40">
   </a>
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-v1.0.0-ARM64.zip">
+  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/download/v1.0.0/AIPromptGenerator-1.0.0-ARM64.zip">
     <img src="https://img.shields.io/badge/⬇️_Download-ARM64-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download ARM64" height="40">
   </a>
 </p>
