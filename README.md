@@ -9,6 +9,22 @@
 **Stop struggling with prompt engineering. Let AI help you write better prompts.**
 Access advanced prompt expansion instantly with `Alt+Space` → `aipromptgenerator write a blog post` → Get a structured, detailed prompt! ✨
 
+<!-- Download Badges -->
+<p align="center">
+  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/latest/download/AIPromptGenerator-v1.0.0-x64.zip">
+    <img src="https://img.shields.io/badge/⬇️_Download-x64-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download x64" height="40">
+  </a>
+  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/latest/download/AIPromptGenerator-v1.0.0-ARM64.zip">
+    <img src="https://img.shields.io/badge/⬇️_Download-ARM64-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download ARM64" height="40">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/latest">
+    <img src="https://img.shields.io/github/downloads/ruslanlap/PowerToysRun-AIPromptGenerator/total?style=for-the-badge&logo=github&color=orange&label=Total%20Downloads" alt="Total Downloads" height="28">
+  </a>
+</p>
+
 <!-- Badges -->
 <p align="center">
   <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/actions">
@@ -19,9 +35,6 @@ Access advanced prompt expansion instantly with `Alt+Space` → `aipromptgenerat
   </a>
   <img src="https://img.shields.io/badge/C%23-.NET%209.0-512BD4?logo=dotnet" alt="C# .NET 9.0">
   <img src="https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4?logo=windows" alt="Platform">
-  <a href="https://github.com/ruslanlap/PowerToysRun-AIPromptGenerator/releases/latest">
-    <img src="https://img.shields.io/github/downloads/ruslanlap/PowerToysRun-AIPromptGenerator/total?logo=github&color=orange" alt="Total Downloads">
-  </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg?logo=opensourceinitiative&logoColor=white" alt="License">
   </a>
@@ -100,11 +113,6 @@ Access advanced prompt expansion instantly with `Alt+Space` → `aipromptgenerat
 <img src="https://img.icons8.com/fluency/96/api-settings.png" width="64" height="64" alt="Multi-Provider"/>
 <br><b>5 AI Providers</b><br>
 <sub>OpenAI, Groq, OpenRouter, HuggingFace, SambaNova</sub>
-</td>
-<td width="33%" align="center">
-<img src="https://img.icons8.com/fluency/96/cache.png" width="64" height="64" alt="Cache"/>
-<br><b>Smart Caching</b><br>
-<sub>Save API costs with intelligent response caching</sub>
 </td>
 </tr>
 <tr>
@@ -581,8 +589,6 @@ The repository includes helpful build scripts:
 
 ## 🧰 Tech Stack
 
-### Plugin Technology
-
 | Component         | Technology                                  | Version      |
 | ----------------- | ------------------------------------------- | ------------ |
 | **Language**      | C#                                          | 12.0         |
@@ -592,76 +598,6 @@ The repository includes helpful build scripts:
 | **PowerToys API** | Community.PowerToys.Run.Plugin.Dependencies | 0.93.0       |
 | **HTTP**          | System.Net.Http                             | Built-in     |
 | **JSON**          | System.Text.Json                            | 9.0.0        |
-
-### Template Technology
-
-| Component           | Technology        |
-| ------------------- | ----------------- | ------------- |
-| **Template Engine** | dotnet new        | Built-in      |
-| **Package Format**  | NuGet             | .nupkg        |
-| **Schema**          | JSON Schema Store | template.json |
-
-### Architecture
-
-```
-┌─────────────────────────────────────────┐
-│         PowerToys Run Launcher          │
-└───────────────┬─────────────────────────┘
-                │
-                ↓
-┌─────────────────────────────────────────┐
-│    AI Prompt Generator Plugin (Main)    │
-├─────────────────────────────────────────┤
-│  • Query Handler                        │
-│  • Settings Manager                     │
-│  • Context Menu Provider                │
-└───────────────┬─────────────────────────┘
-                │
-                ↓
-┌─────────────────────────────────────────┐
-│          AIService (HTTP Client)        │
-├─────────────────────────────────────────┤
-│  • Request Builder                      │
-│  • Response Parser                      │
-│  • Cache Manager                        │
-│  • Error Handler                        │
-└───────────────┬─────────────────────────┘
-                │
-                ↓
-┌─────────────────────────────────────────┐
-│         AI Provider (External)          │
-├─────────────────────────────────────────┤
-│  OpenAI / Groq / OpenRouter /           │
-│  HuggingFace / SambaNova                │
-└─────────────────────────────────────────┘
-```
-
-### Key Components
-
-**1. Main.cs** - Plugin entry point
-
-- Implements IPlugin, IContextMenu, ISettingProvider
-- Handles query processing
-- Manages UI interactions
-
-**2. AIService.cs** - AI integration layer
-
-- HTTP client wrapper
-- OpenAI-compatible API communication
-- Response caching
-- Error handling
-
-**3. PluginSettings.cs** - Configuration management
-
-- PowerToys settings integration
-- Validation logic
-- Default values
-
-**4. AIProvider.cs** - Provider definitions
-
-- Multi-provider support
-- Endpoint configuration
-- Model lists
 
 ---
 
