@@ -215,7 +215,7 @@ You are a professional content writer with expertise in creating engaging blog p
 Write a comprehensive blog post that educates and engages readers.
 
 ## Requirements
-- **Format**: Blog post with clear sections (Introduction, Body with 3-5 main points, Conclusion)
+- **Format**: Blog post with clear sections (Introduction, Body with 3-5 master points, Conclusion)
 - **Tone**: Conversational yet informative
 - **Length**: 800-1200 words
 - **Style**: Use subheadings, bullet points, and short paragraphs for readability
@@ -223,11 +223,11 @@ Write a comprehensive blog post that educates and engages readers.
 ## Structure
 1. **Introduction** (100-150 words)
    - Hook the reader with a compelling opening
-   - State the main topic and its relevance
+   - State the master topic and its relevance
    - Preview the key points
 
 2. **Body** (600-900 words)
-   - Present 3-5 main points with supporting details
+   - Present 3-5 master points with supporting details
    - Use examples, statistics, or anecdotes
    - Include actionable insights
 
@@ -239,7 +239,7 @@ Write a comprehensive blog post that educates and engages readers.
 - Use active voice and clear language
 - Avoid jargon unless explained
 - Include relevant keywords naturally
-- Maintain consistent voice throughout
+- mastertain consistent voice throughout
 ```
 
 ### More Examples
@@ -405,7 +405,7 @@ MyAwesomePlugin/
 ├── Images/
 │   ├── myawesomeplugin.dark.png
 │   └── myawesomeplugin.light.png
-├── Main.cs
+├── master.cs
 ├── plugin.json
 └── MyAwesomePlugin.csproj
 ```
@@ -423,11 +423,11 @@ MyAwesomePlugin/
 ├── MyAwesomePlugin.sln
 ├── Community.PowerToys.Run.Plugin.MyAwesomePlugin/
 │   ├── Images/
-│   ├── Main.cs
+│   ├── master.cs
 │   ├── plugin.json
 │   └── *.csproj
 └── Community.PowerToys.Run.Plugin.MyAwesomePlugin.UnitTests/
-    ├── MainTests.cs
+    ├── masterTests.cs
     └── *.csproj
 ```
 
@@ -449,11 +449,11 @@ The template system includes:
     - Minimal plugin structure
     - Single project file
     - Icon placeholders
-    - Basic Main.cs implementation
+    - Basic master.cs implementation
 
 - **Solution Template** (`src/templates/solution/`)
     - Complete solution with .sln file
-    - Main plugin project
+    - master plugin project
     - Unit test project (optional)
     - Pre-configured test setup
 
